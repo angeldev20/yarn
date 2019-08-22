@@ -1,0 +1,18 @@
+.section-different {
+  padding-top: 85px;
+  padding-bottom: 90px;
+  background-image: url('../img/backgrounds/light-blue-background.jpg');
+  background-position: center;
+  background-size: cover;
+  .title-underline {
+    margin-bottom: 107px;
+  }
+  @include media-breakpoint-down('md') {
+    padding-top: 58px;
+    padding-bottom: 20px;
+    .title-underline {
+      margin-bottom: 56px;
+    }
+  }
+
+}
